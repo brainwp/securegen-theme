@@ -31,3 +31,25 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	padding: 90px 0 20px;
 	padding: 5.375rem 0 2.375rem;
 }
+
+.profile {
+	margin-bottom: 20px;
+
+}
+
+.profile-content .tel {
+	font-size: 1.5em;
+}
+
+.profile-footer {
+	margin-top: -20px;
+
+}
+
+.profile-footer a {
+	font-size: 2.5em;
+}
+
+.profile-footer .fa {
+	margin-right: 10px;
+}

@@ -95,31 +95,25 @@ $team_metabox->set_fields(
 		),
 		array(
 			'id'          => 'team_twitter',
-			'label'       => 'Twitter',
+			'label'       => 'Twitter URL',
 			'type'        => 'text',
 			'description' => ''
 		),
 		array(
 			'id'          => 'team_linkedin',
-			'label'       => 'Linkedin',
+			'label'       => 'Linkedin URL',
 			'type'        => 'text',
 			'description' => ''
 		),
 		array(
 			'id'          => 'team_github',
-			'label'       => 'Github',
-			'type'        => 'text',
-			'description' => ''
-		),
-		array(
-			'id'          => 'team_blog',
-			'label'       => __('Posts no blog','tema-brasa'),
+			'label'       => 'Github URL',
 			'type'        => 'text',
 			'description' => ''
 		),
 		array(
 			'id'          => 'team_wporg',
-			'label'       => __('Conta no WordPress.org','tema-brasa'),
+			'label'       => __('URL da Conta no WordPress.org','tema-brasa'),
 			'type'        => 'text',
 			'description' => ''
 		),
