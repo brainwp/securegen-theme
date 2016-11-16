@@ -1,24 +1,28 @@
 <?php
 /**
- * The main template file.
+ * The front page template file.
  *
- * This is the most generic template file in a WordPress theme
- * and one of the two required files for a theme (the other being style.css).
- * It is used to display a page when nothing more specific matches a query.
- * E.g., it puts together the home page when no home.php file exists.
+ * The front-page.php template file is used to render your site’s front page,
+ * whether the front page displays the blog posts index (mentioned above) or a static page.
+ * The front page template takes precedence over the blog posts index (home.php) template.
  *
- * @link https://codex.wordpress.org/Template_Hierarchy
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#front-page-display
  *
  * @package OnePress
  */
 
-get_header();
+get_header(); ?>
 
-?>
-	<?php echo onepress_breadcrumb(); ?>
 	<div id="content" class="site-content">
-		<div id="content-inside" class="container right-sidebar">
-			<div id="primary" class="content-area">
+	<div class="page-header">
+			<div class="container">
+				<h1 class="page-title"><?php single_post_title(); ?></h1>
+			</div>
+		</div>
+		<?php echo onepress_breadcrumb(); ?>
+
+		<div id="content-inside" class="container">
+			<div class="content-area">
 				<main id="main" class="site-main" role="main">
 
 				<?php if ( have_posts() ) : ?>
@@ -31,7 +35,6 @@ get_header();
 
 					<?php /* Start the Loop */ ?>
 					<?php while ( have_posts() ) : the_post(); ?>
-
 						<?php
 
 							/*
@@ -53,11 +56,9 @@ get_header();
 				<?php endif; ?>
 
 				</main><!-- #main -->
-			</div><!-- #primary -->
-
-			<?php get_sidebar(); ?>
 
 		</div><!--#content-inside -->
 	</div><!-- #content -->
 
 <?php get_footer('contact'); ?>
+
