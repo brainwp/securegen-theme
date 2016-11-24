@@ -1,9 +1,7 @@
 <?php
 /**
- * Template Name: Archive Equipe
- * Description: A full-width template with no sidebar
  *
- * @package Tema Brasa
+ * @package OnePress
  */
 
 get_header(); ?>
@@ -14,16 +12,11 @@ get_header(); ?>
 				<main id="main" class="site-main" role="main">
 					<h2 class="fullheader-title">
 						<?php
-							if ( $title = get_option('team_title') ) {
-								echo $title;
-							} else {
-								echo "Equipe Securegen";
-							}
-						?>
+						 	_e( '[:pb]Equipe[:en]Team[:]', 'onepress' ); 
+						 ?>
 					</h2>
 					<br />
-					<p><?php if($title = get_option('team_subtitle')) echo $title;?></p>
-				    
+							    
 				    <?php while ( have_posts() ) : the_post(); ?>
 
 				        <?php get_template_part( 'content', 'team' ); ?>
