@@ -76,3 +76,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	border-left: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;
 }
+
+@media screen and (max-width: 544px) {
+	.download-info {
+		border-right: 1px solid #ddd;
+		border-bottom: none;
+	}
+}

@@ -11,3 +11,4 @@
 </div>
 <a class="col-sm-3 download-button" href="<?php $dlm_download->the_download_link(); ?>" rel="nofollow"><i class="fa fa-download" aria-hidden="true"></i> Download
 </a>
+<br />
