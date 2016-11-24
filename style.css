@@ -53,3 +53,26 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 .profile-footer .fa {
 	margin-right: 10px;
 }
+
+.download-button {
+	background-color: #a1b11e;
+	background-image: none;
+	box-shadow: none;
+	border: none;
+	border-radius: 0;
+	text-decoration: none;
+	padding: .62em 0;
+}
+
+.download-button:hover {
+	background-color: #B7CD00;
+	background-image: none;
+	text-decoration: none;
+}
+
+.download-info {
+	padding: .75em 1em;
+	border-top: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
