@@ -36,17 +36,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	margin-bottom: 20px;
     padding: 0;
 }
-.profile-header, .profile-content {
-	padding: 0
-}
 
 .profile-content .tel {
 	font-size: 1.5em;
-}
-
-.profile-content h3 {
-
-	margin-top: 0.9375rem;
 }
 
 .profile-footer {
@@ -106,6 +98,14 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 	.section-contact h2.section-title {
 	font-size: 1.6em;
+	}
+
+	.profile-header, .profile-content {
+	padding: 0
+	}
+
+	.profile-content h3 {
+	margin-top: 0.9375rem;
 	}
 
 }
