@@ -77,9 +77,23 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	border-bottom: 1px solid #ddd;
 }
 
-@media screen and (max-width: 544px) {
+#primary {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 545px) {
 	.download-info {
 		border-right: 1px solid #ddd;
 		border-bottom: none;
 	}
+
+	.section-contact .row .contact-form {
+		text-align: left;
+	}
+
+	.section-contact h2.section-title {
+	font-size: 1.6em;
+	}
+
 }
