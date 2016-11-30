@@ -75,6 +75,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	border-top: 1px solid #ddd;
 	border-left: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;
+	margin-bottom: 0.9375rem;
 }
 
 #primary {
@@ -108,4 +109,25 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	margin-top: 0.9375rem;
 	}
 
+	.section-yourslider {
+		padding: 2.375rem 0rem 3.375rem;
+	}
+
+	.section-yourslider .container {
+    padding-right: 0;
+    padding-left: 0;
+	}
+
+
+	.section-yourslider .container .col-md-12 {
+    padding-right: 0;
+    padding-left: 0;
+	}
+
+	.feature-item {
+    margin-bottom: 20px;
+	}
+
 }
+
+

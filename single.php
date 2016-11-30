@@ -21,7 +21,7 @@ get_header(); ?>
 			<div class="col-sm-9">
 			<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 				<div class="entry-meta">
-					<?php onepress_posted_on(); ?>
+					<?php echo esc_html__('[:pb]Publicado em [:en]Posted on [:]', 'onepress'); ?> <?php echo get_the_date(' d/m/Y'); ?>
 				</div><!-- .entry-meta -->	
 			</div>
 			<div class="col-sm-3">
