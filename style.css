@@ -107,6 +107,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     position: relative;
 }
 
+.site-info .container {
+    line-height: 2em;
+}
+
 @media screen and (max-width: 545px) {
 	.download-info {
 		border-right: 1px solid #ddd;
