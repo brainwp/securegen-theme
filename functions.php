@@ -151,3 +151,11 @@ if ( ! function_exists( 'onepress_footer_site_info' ) ) {
     }
 }
 add_action( 'onepress_footer_site_info', 'onepress_footer_site_info' );
+
+// Adicionando o filetype PGP
+
+function my_encrypt_types($encrypt_types){
+    $encrypt_types['pgp'] = 'application/pgp-encrypted'; //Adding svg extension
+    return $encrypt_types;
+}
+add_filter('upload_mimes', 'my_encrypt_types', 1, 1);
