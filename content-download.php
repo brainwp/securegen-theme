@@ -6,6 +6,8 @@
 <div class="col-sm-3 download-info">
 	<?php $dlm_download->the_title(); 
 	?>
+<br />
+<span class="md5sum"><?php $dlm_download->the_short_description(); ?></span>
 </div>
 <div class="col-sm-3 download-info">
 	<?php echo date_i18n( get_option( 'date_format' ), strtotime( $dlm_download->get_the_file_date() )); 

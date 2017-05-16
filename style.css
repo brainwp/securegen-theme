@@ -62,6 +62,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	border-radius: 0;
 	text-decoration: none;
 	padding: .62em 0;
+	height: 4.15em;
 }
 
 .download-button:hover {
@@ -76,7 +77,13 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	border-left: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;
 	margin-bottom: 0.9375rem;
+	height: 5em;
 }
+
+span.md5sum {
+	font-size: 0.7em;
+}
+
 
 #primary {
     padding-bottom: 20px;
