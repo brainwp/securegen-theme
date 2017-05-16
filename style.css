@@ -162,4 +162,9 @@ span.md5sum p {
     margin-bottom: 20px;
 	}
 
+	.site-footer span.sep {
+    text-indent: -9999999px;
+    display: table-column;
+	}
+
 }
